@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Favourite Driver</title>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    </head>
+    <body>
+        <form id="new-driver-form">
+            <div id="form-wrapper">
+              <div class="form-item">
+                <label for="driver" class="primary">Driver</label>
+                <input type="text" id="driver" required/>
+              </div>
+      
+              <div class="form-item">
+                <label for="team" class="primary">Team</label>
+                <input type="text" id="team" required/>
+              </div>
+      
+              <div class="form-item">
+                <label for="nationality" class="primary">Nationality</label>
+                <input type="text" id="nationality" required/>
+              </div>
+            </div>
+            <input type="submit" value="save"/>
+        </form>
+
+        <button id="delete-all" type="button">delete all</button>
+
+        <h1>List of drivers</h1>
+        <ul id="drivers-list"></ul>
+    </body>
+
+</html>
+
